@@ -10,7 +10,9 @@ const Login = props => {
                     resizeMode='center'
                     style={styles.image} />
 
-                <Text style={styles.textTitle}>Welcome back, LOGIN</Text>
+                <Text style={styles.text}>Welcome back,</Text>
+                <Text style={styles.textTitle}>LOGIN</Text>
+
             </View>
             <View>
                 <TextInput style={styles.input}
@@ -24,7 +26,7 @@ const Login = props => {
                     placeholderTextColor={'gray'}
                     autoCapitalize={'words'}
                     secureTextEntry={true}
-                    maxLength={12}
+                    maxLength={8}
                     returnKeyType='next'
                 ></TextInput>
 
@@ -48,12 +50,17 @@ const styles = StyleSheet.create({
         width: 250,
         height: 250,
 
+    },
+    text: {
+        color: 'black',
+        fontSize: 29,
+        fontWeight: 'bold',
 
     },
     textTitle: {
         //color: 'black',
         color: 'indigo',
-        fontSize: 29,
+        fontSize: 28,
         fontWeight: 'bold',
         fontStyle: 'italic',
         textAlign: 'center',
@@ -90,7 +97,7 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 19,
         fontWeight: 'bold',
-        fontStyle: 'italic',
+        // fontStyle: 'italic',
     },
     signUpText: {
         color: 'black',

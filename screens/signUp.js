@@ -9,7 +9,8 @@ const signUp = props => {
                     source={require('../android/app/src/assets/img/signup.png')}
                     resizeMode='center'
                     style={styles.image} />
-                <Text style={styles.textTitle}>Holla, Create Account</Text >
+                <Text style={styles.text}>Let's Get Started</Text >
+                <Text style={styles.textTitle}>Create Account</Text >
             </View>
             <View>
                 <TextInput style={styles.input}
@@ -30,14 +31,14 @@ const signUp = props => {
                     placeholder={"Password*"}
                     placeholderTextColor={'gray'}
                     secureTextEntry={true}
-                    maxLength={12}
+                    maxLength={8}
                     returnKeyType='next'
                 ></TextInput>
                 <TextInput style={styles.input}
                     placeholder={"Confirm password*"}
                     placeholderTextColor={'gray'}
                     secureTextEntry={true}
-                    maxLength={12}
+                    maxLength={8}
                     returnKeyType='next'
                 ></TextInput>
 
@@ -62,14 +63,18 @@ const styles = StyleSheet.create({
     image: {
         width: 220,
         height: 220,
-
+    },
+    text: {
+        color: 'black',
+        fontWeight: 'bold',
+        // fontStyle: 'italic',
+        fontSize: 29,
 
     },
-
     textTitle: {
         //color: 'black',
         color: 'indigo',
-        fontSize: 30,
+        fontSize: 25,
         fontWeight: 'bold',
         fontStyle: 'italic',
         textAlign: 'center',
@@ -106,7 +111,7 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 19,
         fontWeight: 'bold',
-        fontStyle: 'italic',
+        // fontStyle: 'italic',
     },
     textButton: {
         display: 'flex',
