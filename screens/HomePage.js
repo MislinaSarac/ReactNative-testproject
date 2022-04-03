@@ -40,5 +40,55 @@ export default function HomePage() {
     );
 }
 const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#EBEAD',
+    },
+    taskWrapper: {
+        paddingTop: 80,
+        paddingHorizontal: 20,
+    },
+    sectionTitle: {
+        fontSize: 24,
+        fontWeight: 'bold',
+        color: 'indigo',
+    },
+    items: {
+        marginTop: 30,
+    },
+    writeTaskWrapper: {
+        position: 'absolute',
+        bottom: 60,
+        width: '100%',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+    },
+    input: {
+        color: 'black',
+        paddingVertical: 15,
+        paddingHorizontal: 15,
+        backgroundColor: '#fff',
+        borderRadius: 50,
+        borderColor: 'indigo',
+        borderWidth: 2,
+        width: 250,
+        marginLeft: 30,
+    },
+    addWrapper: {
+        width: 60,
+        height: 60,
+        backgroundColor: '#fff',
+        borderRadius: 50,
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderColor: 'indigo',
+        borderWidth: 2,
+        marginRight: 30,
 
+    },
+    addText: {
+        fontSize: 24,
+        color: 'black',
+    },
 });
