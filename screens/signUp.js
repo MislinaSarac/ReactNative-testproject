@@ -67,12 +67,10 @@ const styles = StyleSheet.create({
     text: {
         color: 'black',
         fontWeight: 'bold',
-        // fontStyle: 'italic',
         fontSize: 29,
 
     },
     textTitle: {
-        //color: 'black',
         color: 'indigo',
         fontSize: 25,
         fontWeight: 'bold',

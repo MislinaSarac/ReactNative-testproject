@@ -58,7 +58,6 @@ const styles = StyleSheet.create({
 
     },
     textTitle: {
-        //color: 'black',
         color: 'indigo',
         fontSize: 28,
         fontWeight: 'bold',
@@ -97,7 +96,6 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 19,
         fontWeight: 'bold',
-        // fontStyle: 'italic',
     },
     signUpText: {
         color: 'black',

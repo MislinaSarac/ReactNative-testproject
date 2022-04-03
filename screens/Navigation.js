@@ -1,20 +1,23 @@
-import * as React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+// import * as React from 'react';
+// import 'react-native-gesture-handler';
+// import { NavigationContainer } from '@react-navigation/native';
+// import { createStackNavigator } from '@react-navigation/stack';
 
-import signUp from './signUp';
-import Login from './login';
+// import signUp from './screens/signUp';
+// import Login from './screens/login';
 
-//const Stack = createStackNavigator();
-const Navigation = props => {
-    return (
-        <NavigationContainer>
-            <Stack.Navigator initialRouteName="Home">
-                <Stack.Screen name="Home" component={login} options={{ headerShown: false }} />
-                <Stack.Screen name="Home" component={signUp} options={{ headerShown: false }} />
 
-            </Stack.Navigator>
-        </NavigationContainer>
-    );
-};
-export default Navigation;
+// const Navigation = props => {
+//     const Stack = createStackNavigator();
+
+//     return (
+//         <NavigationContainer>
+//             <Stack.Navigator initialRouteName="signUp">
+//                 <Stack.Screen name="login" component={Login} />
+//                 <Stack.Screen name="signUp" component={signUp} />
+
+//             </Stack.Navigator>
+//         </NavigationContainer>
+//     );
+// };
+// export default Navigation;
